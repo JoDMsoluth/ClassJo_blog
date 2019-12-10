@@ -8,32 +8,40 @@ export default function Header() {
     <HeaderContainer>
       <div>
         <Link href="/">
-          <ActiveLink href="/">Intro</ActiveLink>
+          <a>
+            <ActiveLink href="/">Intro</ActiveLink>
+          </a>
         </Link>
       </div>
       <div>
         <Link href="/profile">
-          <ActiveLink href="/profile">Profile</ActiveLink>
+          <a>
+            <ActiveLink href="/profile">Profile</ActiveLink>
+          </a>
         </Link>
       </div>
       <div>
         <Link href="/project">
-          <ActiveLink href="/project">Project</ActiveLink>
+          <a>
+            <ActiveLink href="/project">Project</ActiveLink>
+          </a>
         </Link>
       </div>
       <div>
         <Link href="/blog">
-          <ActiveLink href="/blog">Blog</ActiveLink>
+          <a>
+            <ActiveLink href="/blog">Blog</ActiveLink>
+          </a>
         </Link>
       </div>
       <div>
         <a href="https://github.com/JoDMsoluth" target="_blank">
-          GitHub
+          <span>GitHub</span>
         </a>
       </div>
       <div>
         <a href="https://open.kakao.com/o/sNCD8wHb" target="_blank">
-          KaKaoTalk
+          <span>KaKaoTalk</span>
         </a>
       </div>
     </HeaderContainer>

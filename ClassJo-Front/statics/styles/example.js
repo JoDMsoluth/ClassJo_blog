@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import { respondTo } from "./maxins.style";
+import { mediaSize } from "./maxins.style";
 
 // Background color changes to
 // aqua from breakpoint sm (768px)
 export const ExampleComponent = styled.div`
   background-color: lime;
 
-  ${respondTo.sm`
+  ${mediaSize.sm`
 		background-color: aqua;
 	`}
 `;

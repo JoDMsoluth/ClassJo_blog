@@ -1,4 +1,5 @@
 import React from "react";
+import { PageContainer } from "../statics/styles/global.style";
 export default function Profile() {
-  return <div>프로필</div>;
+  return <PageContainer>프로필</PageContainer>;
 }
